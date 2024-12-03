@@ -25,6 +25,7 @@ const greeting = {
     subTitle: emoji(
       "A passionate Computer Science student actively seeking opportunities in Software Engineering and Machine Learning, with experience in developing decentralized applications, full-stack web apps, and research in bias mitigation for AI models."
     ),
+    resumeLink: "https://docs.google.com/document/d/11Em9f_kQwuirYpIJp1n5j56kj7W8ITsgBDBx0Q_5qlM/edit?usp=drive_link", // Replace <your-file-id> with your Google Drive file ID
 
     displayGreeting: true // Set false to hide this section, defaults to true
   };
@@ -56,11 +57,13 @@ const skillsSection = {
   
     softwareSkills: [
       { skillName: "Python", fontAwesomeClassname: "fab fa-python" },
+      { skillName: "Java", fontAwesomeClassname: "fab fa-java" },
+      { skillName: "C", fontAwesomeClassname: "fab fa-c" },
       { skillName: "JavaScript", fontAwesomeClassname: "fab fa-js" },
       { skillName: "React", fontAwesomeClassname: "fab fa-react" },
       { skillName: "Node.js", fontAwesomeClassname: "fab fa-node" },
       { skillName: "Go", fontAwesomeClassname: "fab fa-golang" },
-      { skillName: "Docker", fontAwesomeClassname: "fab fa-docker" }
+      { skillName: "Docker", fontAwesomeClassname: "fab fa-docker" },
     ],
     display: true // Set false to hide this section, defaults to true
   };
