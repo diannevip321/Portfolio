@@ -9,6 +9,7 @@ import StartupProject from "./StartupProjects/StartupProject";
 import Achievement from "./achievement/Achievement";
 import Blogs from "./blogs/Blogs";
 import Footer from "../components/footer/Footer";
+import TechnicalCommunication from "./TechnicalCommunication/TechnicalCommunication";
 import Talks from "./talks/Talks";
 import Podcast from "./podcast/Podcast";
 import Education from "./education/Education";
@@ -57,6 +58,7 @@ const Main = () => {
             <Education />
             <WorkExperience />
             <Projects />
+            <TechnicalCommunication  isDark={isDark}/>
             <StartupProject />
             <Achievement />
             <Blogs />

@@ -189,7 +189,29 @@ const bigProjects = {
     ],
     display: true
   };
-  
+
+  const technicalCommunication = {
+    title: "Technical Communication",
+    subtitle: "Showcasing my CSE/ISE 300 assignments demonstrating effective communication skills",
+    assignments: [
+      {
+        title: "Technical Instructions",
+        description: "Step-by-step guide on how to schedule a Zoom meeting.",
+        link: "https://drive.google.com/file/d/1u_yJ4Ostnba6ey4tf49INZsWC5tUPz8B/view?usp=sharing"
+      },
+      {
+        title: "Media Release",
+        description: "A press release highlighting the importance of teaching kindness to children based on Stony Brook research.",
+        link: "https://drive.google.com/file/d/1j1KITfHKBO1G7vDmdFgoVjDe3SNC6TPj/view?usp=sharing"
+      },
+      {
+        title: "Collaborative Problem Solving Project",
+        description: "A presentation proposing the addition of Zoom pods on campus to enhance student productivity and access to resources.",
+        link: "https://docs.google.com/presentation/d/1VQt-LtX6CZ3WY5QW45FwILtcjchMy9sJmhMo1bnxTqE/edit?usp=drive_link"
+      }
+    ],
+    display: true // Ensure this property exists and is set to true
+  };
 
 // Achievement Section
 // Include certificates, talks etc
@@ -344,6 +366,7 @@ export {
   workExperiences,
   openSource,
   bigProjects,
+  technicalCommunication,
   achievementSection,
   blogSection,
   talkSection,
