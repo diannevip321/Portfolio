@@ -81,7 +81,7 @@ const educationInfo = {
         duration: "August 2021 - May 2025",
         desc: "Wise Honors Program: Women in Science and Engineering",
         descBullets: [
-          "Courses: Software Engineering, Machine Learning, NLP, Computer Networks"
+          "Courses: Software Engineering, Machine Learning, NLP, Computer Networks, System Fundamentals, Data Structures & Algorithms"
         ]
       }
     ]
@@ -344,7 +344,8 @@ const contactInfo = {
     subtitle:
       "Have a project or opportunity in mind? Let’s collaborate!",
     number: "(631) 710-5599",
-    email_address: "dianne.vincent@stonybrook.edu"
+    email_address: "dianne.vincent@stonybrook.edu",
+    contactImage: require("./assets/images/img111.png"), 
   };
 // Twitter Section
 

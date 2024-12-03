@@ -53,12 +53,18 @@ export default function Contact() {
             </div>
           </div>
           <div className="contact-image-div">
-            {illustration.animated ? (
+            {contactInfo.contactImage ? (
+              <img
+                src={contactInfo.contactImage}
+                alt="Contact"
+                className="contact-image"
+              />
+            ) : illustration.animated ? (
               <DisplayLottie animationData={email} />
             ) : (
               <img
                 alt="Man working"
-                src={require("../../assets/images/contactMailDark.svg")}
+                src={require("../../assets/images/img111.png")}
               ></img>
             )}
           </div>
